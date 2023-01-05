@@ -1,0 +1,139 @@
+	/*-------------------------Navbar----------------------------*/
+nav a p
+	{
+		font-size: 15px;
+		margin-top: 5px;
+		margin-left: 30px;
+	}
+ ul li a
+	{
+		letter-spacing: 4px;
+		font-size: 19px;
+	}
+.active
+	{
+		background-color: white;
+		display: inline-block;
+	}
+nav img
+	{
+		width: 130px;
+		height: 70px; 
+		margin-left: 30px;
+	}
+ul li a:hover
+	{
+		color:yellow;
+		font-weight: bold;
+}
+.menu
+{
+	margin-left: 30px;
+}
+
+.form
+{
+	border-radius:30px;
+	background-color:lightblue;
+	width: 1300px;
+	height: 550px;
+	border-style: solid; 
+	margin-bottom:30px
+}
+input[type="text"]:focus,input[type="tel"]:focus
+{
+	border-radius: 25px;
+	border: 2px solid blue;
+	text-align: center;
+	font-weight: bold;
+}
+input[type="email"]:focus
+{
+	border-radius: 25px;
+	border: 2px solid blue;
+	text-align: center;
+	font-weight: bold;
+}
+.form .textarea:focus
+{
+	border-radius: 25px;
+	border: 2px solid blue;
+	font-weight: bold;
+}
+}
+.contact button
+{
+	width: 200px;
+	height: 70px;
+	background-color: lightgreen;
+	transition: transform(2s);
+	margin-top: 50px;
+	border-radius: 25px;
+	border: 2px solid black;
+	padding: 20px;
+}
+.button button:hover
+{
+	width: 100px;
+	height: 40px;
+	transform: scale(1.1);
+}
+.contact img
+{
+	border:2px solid black;
+	margin-top: 50px;
+	border-radius: 25px;
+    width: 900px;
+    height: 650px;
+}
+.head
+{
+	margin-top: 50px;
+}
+input,textarea
+{
+	font-family: 'Font Name', serif;
+}
+label
+{
+	color: black;
+}
+.detail
+{
+	margin-top: 60px;
+}
+.image img
+{
+	height: 770px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.text-block h2
+{
+	color: yellow;
+}
+.text-block p
+{
+	width: 400px; 
+	font-size: 20px;
+}
+.text-block {
+position: absolute;
+top: 200px;
+right: 250px;
+
+color: white;
+padding-left: 20px;
+padding-right: 20px;
+}
+.A
+{
+	height: 130px;
+}
+.A i
+{
+	font-size: 30px;
+	margin-top: 40px;
+	letter-spacing: 15px;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="contact.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Font+Name">
+	<script type="text/javascript" src="js/jQuery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+	<title>Contact us</title>
+</head>
+<body>
+	<header>
+			<nav class="navbar navbar-expand-lg navbar-light bg-info">
+	  			<a class="navbar-brand" href="#"><img src="img/logo.jpeg" alt="Hardware Store" style="width: 130px; height: 70px; margin-left: 30px;"><p><b>Hardware Solution</b></p></p></a>
+	  			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    		<span class="navbar-toggler-icon"></span>
+	  			</button>
+	    		<div class="collapse navbar-collapse menu" id="navbarSupportedContent">
+	    			<ul class="navbar-nav mr-auto">
+	        			<li class="nav-item">
+	        				<a class="nav-link" href="index.html"><i class="fas fa-home"></i>Home <span class="sr-only">(current)</span></a>
+	        			</li>
+	      				<li class="nav-item">
+	        				<a class="nav-link" href="About.html"><i class="fas fa-user"></i>About us</a>
+	      				</li>
+	      				<li class="nav-item">
+	        				<a class="nav-link" href="Service.html">Service</a>
+	        			</li>
+	      				<li class="nav-item dropdown">
+	        				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Components
+	        				</a>
+	        				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				          		<a class="dropdown-item" href="Component.html">Core Components</a>
+				          		<a class="dropdown-item" href="Component.html">Storage Devices</a>
+				        	</div>
+	      				</li>
+	      				<li class="nav-item">
+	        				<a class="nav-link" href="Gallery.html"><i class="fas fa-images"></i>Gallery</a>
+	      				</li>
+	        			<li class="nav-item active">
+	        			
+        					<a class="nav-link" href="Contact.html"><i class="fa fa-phone" aria-hidden="true"></i>Contact us</a>
+        				
+	        			</li>
+	    			</ul>
+	    		</div>
+			</nav>
+		</header>
+	<h2 align="center" style="margin-top:30px; margin-bottom:20px,color:#A93226">CONTACT US</h2><p></p><p></p>
+  	<form method="post" align="center" class="container col-md-6 col-sm-12 text-light form">
+    	<div class="form-row detail">
+        	<div class="col-6 mt-2 mb-2">
+	          <label for="exampleInputFirstname">First Name</label>
+	          <input type="text" class="form-control" name="user_name" placeholder="First name" autocomplete="off" required="">
+        	</div>
+            <div class="col-6 mt-2 mb-2">
+	          <label for="exampleInputNumber">Mobile no.</label>
+	          <input type="tel" class="form-control" name="user_mobile" placeholder="Mobile no." autocomplete="off" required="">
+        	</div>
+            <div class="col-12 mt-2 mb-2">
+	          <label for="exampleInputEmail">Email</label>
+	          <input type="email" class="form-control" name="user_email" placeholder="Email" autocomplete="off" required="">
+        	</div>
+            <div class="col-12 mt-2 mb-2">
+	          <label for="exampleInputMessage">Message</label>
+	          <textarea class="form-control textarea"  name="user_message" placeholder="Message" rows="5">   	
+	          </textarea>
+        	</div>
+            <div class="col-12 button">
+                <button type="submit" class="btn mt-3 bg-primary text-light mb-5">Submit</button>
+            </div>
+        </div>
+    </form>
+
+		<footer>
+		<div class="A bg-dark">
+			<CENTER>
+				<a href=""><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+				<a href=""><i class="fab fa-instagram" aria-hidden="true"></i></a>
+				<a href=""><i class="fab fa-twitter" aria-hidden="true"></i></a>
+				<a href=""><i class="fab fa-facebook" aria-hidden="true"></i></a><br>
+				<p style="color: white; font-size: 20px;">copywrite &copy; 2007-2019 HS.com</p>
+			</CENTER>
+		</div>		
+	</footer>
+</body>
+<!--<?php
+$servername="localhost";
+$username="root";
+$password="";
+$dbname="hardware";
+
+$conn=mysqli_connect($servername,$username,$password,$dbname) or die('Connection error');
+if($conn)
+{
+	if(isset($_POST['Submit']))
+	{
+		$firstname=$_POST['firstname'];
+		$lastname=$_POST['lastname'];
+		$State=$_POST['State'];
+		$subject=$_POST['subject'];
+
+		$sql="INSERT INTO enquiry(firstname,lastname,State,message)VALUES('$firstname','$lastname','$State','$subject')";
+		$sql=mysqli_query($conn,$sql);
+		echo "<script>alert('message send successful');</script>";
+		mysqli_close($conn);
+	}
+	
+}
+?>-->
+</html>

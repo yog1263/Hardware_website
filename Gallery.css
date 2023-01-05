@@ -1,0 +1,65 @@
+/*-------------------------Navbar----------------------------*/
+nav a p
+	{
+		font-size: 15px;
+		margin-top: 5px;
+		margin-left: 30px;
+	}
+ ul li a
+	{
+		letter-spacing: 4px;
+		font-size: 19px;
+	}
+.active
+	{
+		background-color: white;
+		display: inline-block;
+	}
+nav img
+	{
+		width: 130px;
+		height: 70px; 
+		margin-left: 30px;
+	}
+ul li a:hover
+	{
+		color:yellow;
+		font-weight: bold;
+	}
+	.menu
+{
+	margin-left: 30px;
+}
+
+.Gallery div div img
+	{
+		width: 300px;
+		height: 300px;
+		margin-top: 40px;
+		border:1px solid black;
+	}
+
+body
+	{
+		background-color: lightgrey;
+	}
+
+.zoom
+	{
+  		transition:  transform(2s);
+	}
+.zoom:hover
+	{
+  		transform: scale(1.1);
+	}
+.A
+{
+	height: 130px;
+	margin-top: 30px;
+}
+.A i
+{
+	font-size: 30px;
+	margin-top: 40px;
+	letter-spacing: 15px;
+}

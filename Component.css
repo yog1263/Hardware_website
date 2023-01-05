@@ -1,0 +1,81 @@
+/*-------------------------Navbar----------------------------*/
+nav a p
+	{
+		font-size: 15px;
+		margin-top: 5px;
+		margin-left: 30px;
+	}
+ ul li a
+	{
+		letter-spacing: 4px;
+		font-size: 19px;
+	}
+.active
+	{
+		background-color: white;
+		display: inline-block;
+	}
+nav img
+	{
+		width: 130px;
+		height: 70px; 
+		margin-left: 30px;
+	}
+ul li a:hover
+	{
+		color:yellow;
+		font-weight: bold;
+	}
+.menu
+{
+	margin-left: 30px;
+}
+.Service
+{
+	margin-top: 20px;
+}
+.Service img
+{
+	width: 150px;
+	height: 150px;
+	margin-top: 10px;
+}
+.Card2
+{
+	padding: 20px;
+}
+.Card1
+{
+	width: 17rem; /*17rem*/
+	height: 500px;
+}
+h2
+{
+	margin-top: 10px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.row h5,.row1 h5,.row2 h5, .row3 h5, .row4 h5
+{
+	margin-top: 40px;
+	text-align: center;
+}
+/*.Service .Card2
+{
+	margin-left: 30px;
+}*/
+.body a
+{
+	margin-bottom: 5px;
+}
+.A
+{
+	height: 130px;
+	margin-top: 30px;
+}
+.A i
+{
+	font-size: 30px;
+	margin-top: 40px;
+	letter-spacing: 15px;
+}

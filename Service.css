@@ -1,0 +1,92 @@
+
+/*-------------------------Navbar----------------------------*/
+nav a p
+	{
+		font-size: 15px;
+		margin-top: 5px;
+		margin-left: 30px;
+	}
+ ul li a
+	{
+		letter-spacing: 4px;
+		font-size: 19px;
+	}
+.active
+	{
+		background-color: white;
+		display: inline-block;
+	}
+.image img
+	{
+		width: 50px;
+		height: 50px;
+	}
+
+ul li a:hover
+	{
+		color:yellow;
+		font-weight: bold;
+	}
+div img
+	{
+		height: 500px;
+	}
+.A
+{
+	height: 80px;
+}
+.A i
+{
+	font-size: 30px;
+	margin-top: 10px;
+	letter-spacing: 15px;
+
+}
+.menu
+{
+	margin-left: 30px;
+}
+table,th,td
+{
+	border: 2px solid black;
+	border-collapse: collapse;
+	text-align: center;
+	width: 800px;
+}
+table
+{
+	margin-top: 50px;
+}
+
+.Contact
+{
+	margin-top: 30px;
+}
+.Return
+{
+	margin-top: 30px;
+}
+table
+{
+	width: 460px;
+}
+.content
+{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.table1
+{
+	margin-top: 30px;
+}
+.A
+{
+	height: 130px;
+	margin-top: 30px;
+}
+.A i
+{
+	font-size: 30px;
+	margin-top: 40px;
+	letter-spacing: 15px;
+}

@@ -1,0 +1,106 @@
+/*-------------------------Navbar----------------------------*/
+nav a p
+	{
+		font-size: 15px;
+		margin-top: 5px;
+		margin-left: 30px;
+	}
+ ul li a
+	{
+	letter-spacing: 4px;
+	font-size: 19px;
+	}
+.active
+	{
+	background-color: white;
+	display: inline-block;
+	}
+nav img
+	{
+	width: 130px;
+	height: 70px; 
+	margin-left: 30px;
+	}
+ul li a:hover
+	{
+		color:yellow;
+		font-weight: bold;
+	}
+.menu
+{
+	margin-left: 30px;
+}
+.container1 img
+	{
+		height: 600px;
+		width: 100%;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+
+	}
+.container1 {
+	position: relative;
+	font-family: Arial;
+}
+.text-block h1
+{
+	color: yellow;
+}
+.text-block p
+{
+	width: 400px; 
+	font-size: 20px;
+}
+.text-block {
+position: absolute;
+bottom: 100px;
+right: 50px;
+
+color: white;
+padding-left: 20px;
+padding-right: 20px;
+}
+ .Vision1 p,.Vision2 p,.text-block p,.comment p
+{
+	font-family: 'Amaranth';font-size: 20px;
+}
+.connect1,.connect2
+{
+	width: 300px;
+	height: 200px;
+}
+.Vision1,.connect1
+{
+	margin-top: 50px;
+}
+.Vision2,.connect2
+{
+	margin-top: 100px;
+}
+.img
+{
+	margin-top: 100px;
+}
+.Vision h3
+{
+	justify-content: center;
+}
+.comment
+{
+	margin-top: 50px;
+}
+.comment2
+{
+	margin-top: 300px;
+}
+.A
+{
+	height: 130px;
+	margin-top: 30px;
+}
+.A i
+{
+	font-size: 30px;
+	margin-top: 40px;
+	letter-spacing: 15px;
+}

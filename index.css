@@ -1,0 +1,110 @@
+
+/*-------------------------Navbar----------------------------*/
+nav a p
+	{
+		font-size: 15px;
+		margin-top: 5px;
+		margin-left: 30px;
+	}
+ ul li a
+	{
+		letter-spacing: 4px;
+		font-size: 19px;
+	}
+.active
+	{
+		background-color: white;
+		display: inline-block;
+	}
+.image img
+	{
+		width: 50px;
+		height: 50px;
+	}
+
+ul li a:hover
+	{
+		color:yellow;
+		font-weight: bold;
+	}
+div img
+	{
+		height: 500px;
+	}
+.A
+{
+	height: 80px;
+}
+.A i
+{
+	font-size: 30px;
+	margin-top: 10px;
+	letter-spacing: 15px;
+
+}
+.menu
+{
+	margin-left: 30px;
+}
+
+.About
+{
+	margin-top: 40px;
+}
+.aboutus p
+{
+	font-family: 'Amaranth';font-size: 20px;
+}
+.Service
+{
+	margin-top: 50px;
+}
+.Service1
+{
+	margin-top: 30px;
+}
+.Service1 img
+{
+	width: 150px;
+	height: 150px;
+}
+.card1
+{
+	height: 300px;
+}
+.cardbutton a
+{
+	margin-top: 24px;
+}
+.Gallery div div img
+{
+	width: 370px;
+	height: 300px;
+	padding: 30px;
+}
+.Gallery h3
+{
+	text-align: center;
+	margin-top: 30px;
+	padding-bottom: 30px;
+}
+.zoom
+	{
+  		transition:  transform(2s);
+	}
+.zoom:hover
+	{
+  		transform: scale(1.1);
+	}
+.A
+{
+	height: 130px;
+	margin-top: 30px;
+}
+.A i
+{
+	font-size: 30px;
+	margin-top: 40px;
+	letter-spacing: 15px;
+}
+
